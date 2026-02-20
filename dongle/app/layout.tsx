@@ -2,10 +2,6 @@ import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
 
-const intentionalError = "This variable is never used";
-const name = "Francis";
-name = "Onfranciis";
-
 const geistSans = Geist({
   variable: "--font-geist-sans",
   subsets: ["latin"],
